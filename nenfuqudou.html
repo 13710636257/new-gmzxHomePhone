@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	    <meta http-equiv="Content-Security-Policy" content="block-all-mixed-content">
+	    <meta name="renderer" content="webkit" />
+	    <title>嫩肤祛痘</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=0.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	    <meta content="yes" name="apple-mobile-web-app-capable">
+	    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+	    <meta content="telephone=no" name="format-detection">
+	    <meta content="email=no" name="format-detection">
+	    
+		<script src="js/flexible/flexible.js" type="text/javascript" charset="utf-8"></script>
+		
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.wp{width: 100%;max-width: 750px;color: #000;}
+			.wp img {display: block;width: 100%;}
+			.head {
+				width: 100%;
+				height: 7.85rem;
+				background: url("https://cdn.gmzx.com/images/phone/huodong/nenfu/head_bn.png") no-repeat center;
+				background-size: 100% 100%;
+				position: relative;
+			}
+			.info {
+				width: 3.93rem;
+				height: 3.13rem;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				position: absolute;
+				left:1.96rem;
+				top: 2.95rem;
+			}
+			.info ul li {
+				width: 100%;
+				margin-bottom: 0.1rem;
+				list-style: none;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.info ul li span {
+				font-size: 14px;
+				font-family: "微软雅黑";
+				font-weight: 600;
+			}
+			.info ul li .inp-bn{
+				float: right;
+				width: 80%;
+				height: 0.6rem;
+				background: url("https://cdn.gmzx.com/images/phone/huodong/nenfu/inp_bn.png")no-repeat center;
+				background-size: 100% 100%;
+			}
+			.info ul li .inp{
+				width: 90%;
+				height: 0.35rem;
+				line-height: 0.35rem;
+				margin-left: 0.1rem;
+				font-size: 12px;
+				border: none;
+				background: none;
+			}
+			.info ul li.phone-code {
+				width: 100%;
+				height: 0.65rem; 
+				background: url('https://cdn.gmzx.com/images/phone/huodong/nenfu/inp_bn2.png') no-repeat center;
+				background-size: 100% 100%;
+				margin-top: 0.12rem;
+			}
+			.info ul li.phone-code .num-code {
+				font-size: 12px;
+				width: 36%;
+				line-height: 0.55rem;
+				color: #222d65;
+				margin-top: -0.1rem;
+			}
+			.info .btn-success {
+				width: 1.98rem;
+			    height: 0.58rem;
+			    border: none;
+			    position: absolute;
+			    left: 24%;
+			    bottom: -16%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wp" style="margin: 0 auto;">
+			<div class="head">
+				<form role="form" class="info">
+					<ul>
+						<li style="margin-top: 0;">
+							<span>姓名</span>
+							<div class="inp-bn">
+								<input name="name" id="name" type="text" value="" placeholder="请输入您的真实姓名" class="inp"/>
+							</div>
+						</li>
+						
+						<li>
+							<span>电话</span>
+							<div class="inp-bn">
+								<input name="phone" id="phone" type="text" value="" placeholder="请输入国内11位手机号" class="inp"/>
+							</div>
+						</li>
+						<li class="phone-code">
+							<input type="text" name="piccode" id="piccode" value="" placeholder="请输入图片中的验证码" class="inp" style="width: 60%; margin-top: -0.075rem;"/>
+							<img class="w-all" style="width:32%;height:70%;margin: -0.1rem 0.05rem 0 0;" src="https://wx.gmzx.com/index_yzm?lenth=4" 
+				 				onclick="this.src='http://wx.gmzx.com/index_yzm?d='+Math.random();" />
+						</li>
+						
+						<li class="phone-code">
+							<input id="phoneCode" name="phoneCode"  type="text" value="" placeholder="请输入短信验证码" class="inp" style="width: 60%;margin-top: -0.075rem;"/>
+							<span id="bcode" class="num-code" onclick="_code();">获取验证码</span>
+						</li>
+					</ul>
+					<button class="btn btn-success" onclick="submit();"></button>	
+				</form>
+			</div>
+			<div class="content">
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_01.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_02.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_03.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_04.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_05.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_06.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_07.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_08.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_09.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_10.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_11.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_12.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_13.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_14.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_15.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_16.png" alt="" />
+				<img src="https://cdn.gmzx.com/images/phone/huodong/nenfu/nf_17.png" alt="" />
+			</div>
+		</div>
+		<script type="text/javascript">
+			
+			//发送手机验证码： 需先填写图片验证码
+			function _code(){
+				var phone = $.trim($('#phone').val());
+				var piccode = $('#piccode').val();
+				//if(!/^0?1[3|4|5|7|8][0-9]\d{8}$/i.test(phone)){
+				var myreg = /^[1][3,4,5,6,7,8,9][0-9]{9}$/; 
+				if(!myreg.test(phone)){
+					Gmzx.Msg.alert('11位手机号格式不对！',1);
+					$('#phone').focus();
+					return;
+				}
+				if (!piccode) {
+					Gmzx.Msg.alert('请输入图片验证码！',1);	
+					return;
+				}
+				$('#bcode').unbind('click');
+				$('#bcode').attr('disabled','disabled');
+				$.post(
+				  "http://wx.gmzx.com/sms_taobaoYzm",
+				  {phone: phone,code:piccode},
+				  function(ret) {
+					  if (ret.success){
+							$('#bcode').text('60秒后获取');		        		
+							var i = 60;
+							var sto = function(){
+								$('#bcode').unbind('click');
+								if (--i > 0) {
+									$('#bcode').text(i+'秒后获取');
+									setTimeout(sto, 1000);
+								} else {
+									$('#bcode').text('重新获取');		        	      		
+									$('#bcode').removeAttr('disabled');
+									$('#bcode').bind('click',_code);
+								}
+							}	
+							setTimeout(sto,1000);
+					  }else{
+						  $('#bcode').removeAttr('disabled');
+						  $('#bcode').bind('click',_code);
+						  //Gmzx.Msg.alert(ret.msg,1);
+						  Gmzx.Msg.alert("该号码接收有异常,请联系系统管理员!",1);
+					  }
+				},'json');
+			}
+			
+			var flag=true; //防止用户在短时间内重复点击
+			function submit(){
+				var name = $('#name').val();
+				var phone = $('#phone').val();
+				var phoneCode = $('#phoneCode').val(); 						
+				
+				if (!name || !phone || !phoneCode || !/^0?1[3|4|5|6|7|8|9][0-9]\d{8}$/i.test(phone) || !/^[\u4e00-\u9fa5]{2,4}$/i.test(name) ) {
+					Gmzx.Msg.alert('请输入准确信息！',1);
+					return;
+				}
+				
+				if(flag){
+					//loading层
+					var loading=layer.open({type: 2});
+					flag=false;
+					var jqxhr = $.post(
+						  "http://wx.gmzx.com/wxFans_edit",
+						  //{phone: phone, name: name,phoneCode:phoneCode, wxopenid: '${openid}',wxPublicId:'<s:property value="wxAccount.wxPublicId"/>'},
+						  $("form").serialize(),
+						  function(ret) {
+							  flag=true;
+							  layer.close(loading);  
+							  if (ret.success){
+								  if(ret.msg){
+									window.location.href=ret.msg;
+								  }else{
+									window.location.href="http://wx.gmzx.com/wxFans_index";							  
+								  }
+							  }else{
+								  Gmzx.Msg.alert(ret.msg,1);
+							  }
+						},'json')
+					.error(function(e) {
+						flag=true;
+						layer.close(loading); 
+						Gmzx.Msg.alert("操作失败,请稍后再试",1);	
+						setTimeout(function(){
+							//window.location.reload(true);
+						}, 3000);
+						
+					});
+				}
+			}	
+	
+		</script>
+	</body>
+</html>

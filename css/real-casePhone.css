@@ -1,0 +1,466 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-style: normal;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+
+input, button, select, textarea{
+    outline: none
+}
+
+body {
+    font-size: 0.26rem;
+    font-family:微软雅黑, SimSun , Arial,  黑体, sans-serif 宋体;
+    -webkit-text-size-adjust: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+.clearfix:after, .clearfix:before {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+span,img,i{ display: inline-block;  }
+
+.clearfix {
+    *zoom: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
+}
+
+a, a:focus {
+    outline: none;
+}
+
+ul li{
+    list-style: none
+}
+
+i,em{
+    display: inline-block;
+}
+img {
+    vertical-align: middle;
+    outline: none
+}
+
+
+.wrap{
+    width: 100%;
+}
+.head{
+    padding: 0 0.2rem;
+    height: 0.87rem;
+    box-sizing: border-box;
+    background: #d2235a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.head .go-back{
+    font-size: 0.28rem;
+
+}
+.head .go-back i {
+    width: 0.3rem;
+    height: 0.52rem;
+    background: url(https://wx-gmzx.oss-cn-shenzhen.aliyuncs.com/images/phone/zhuanti/zt-item/real-case/go-back.jpg) no-repeat center;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+.head .zixun{
+    font-size: 0.26rem;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.head p i {
+    width: 0.45rem;
+    height: 0.42rem;
+    background: url(https://cdn.gmzx.com/images/phone/zhuanti/zt-item/real-case/icon-zixun.png) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 4.23rem;
+    margin-bottom: 0.1rem;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*案例内容*/
+.real-case{
+    width: 100%;
+
+}
+.real-case h2 img{
+    width: 100%;
+    height: 1.24rem;
+}
+.real-case .swiper-container {
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+.real-case .swiper-container .tab-pagination1 {
+    width: 100%;
+    height: 0.85rem;
+    background: white;
+    border-bottom: 1px solid #e6e6e6;
+
+}
+.real-case .swiper-container .more-icon{
+    width: 0.4rem;
+    height: 0.4rem;
+    background:transparent url(https://cdn.gmzx.com/images/phone/new-phone/phone-icon.png) -0.3rem -1.19rem no-repeat;
+    background-size: 5.98rem 8.62rem;
+    position: absolute;
+    top: 0.22rem;
+    right:0.15rem;
+}
+
+.real-case .swiper-container .tab-pagination1 span {
+    float: left;
+    width: 12.5%;
+    text-align: center;
+    font-size: 0.28rem;
+    height: 0.85rem;
+    line-height:0.85rem;
+    background: #fff;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    margin: 0 !important;
+    opacity: 1;
+    border-radius: 0;
+}
+.real-case .swiper-container .tab-pagination1 span:nth-of-type(5) {
+    width: 24%;
+}
+.real-case .swiper-container .tab-pagination1 span:nth-of-type(6) {
+    width: 18.5%;
+}
+
+.real-case .swiper-container .tab-pagination1 span.swiper-pagination-bullet-active {
+    color: #df0045;
+    border-bottom: 1px solid #d2235a;
+    background: #fff;
+}
+/*案例内容*/
+.real-case .case-content .swiper-slide{
+    width: 100%;
+}
+
+.real-case .case-content ul {
+
+}
+.real-case .case-content ul li {
+    padding: 0.2rem;
+
+    background: white;
+    margin-top: 0.1rem;
+}
+ .case-content ul li .content-top {
+    width: 100%;
+    height: 0.92rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.case-content ul li .content-top h2 {
+    font-size: 0.35rem;
+    color: #000;
+   font-weight: 600;
+}
+.case-content  ul li .content-top h2 span {
+    font-size: 0.26rem;
+    color: #424242;
+    font-weight: 500;
+}
+.case-content  ul li .content-top p {
+    font-size: 0.26rem;
+}
+.case-content  ul li .content-top p span {
+    color: #d2235a;
+}
+.case-content  ul li .content-top a {
+    display: inline-block;
+    width: 2.28rem;
+    height: 0.65rem;
+    line-height: 0.65rem;
+    text-align: center;
+    font-size: 0.25rem;
+    background: #d2235a;
+    color: #fff;
+    border-radius: 0.28rem;
+    box-shadow: 0px 4px 0px #f6d3de;
+}
+
+ .case-content ul li .content-middle{
+    width: 100%;
+    height: 4.44rem;
+    margin:0.12rem 0;
+    background: url(https://cdn.gmzx.com/images/phone/zhuanti/zt-item/real-case/content-bg.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.case-content ul li .content-middle .ml-left {
+    float: left;
+    width: 3.45rem;
+    height: 4.3rem;
+}
+
+.case-content ul li .content-middle .ml-right {
+    float: left;
+    width: 3.24rem;
+    height: 3.99rem;
+    margin-left: 0.28rem;
+    margin-top: 0.13rem;
+}
+.case-content ul li .content-middle .ml-right div {
+    position: relative;
+}
+.case-content ul li .content-middle .ml-right p {
+    width: 0.58rem;
+    height: 0.32rem;
+    line-height: 0.32rem;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    border-radius: 0 0.1rem 0.1rem 0;
+    position: absolute;
+    left: 0;
+    bottom: 0.18rem;
+    font-size: 0.2rem;
+    color: #fff;
+}
+.case-content ul li .content-middle .ml-right p.shuhou {
+    background: rgba(179,40,88,0.7);
+}
+
+.case-content ul li .content-middle .ml-right .ml-right-top{
+    width: 3.03rem;
+    height: 1.81rem;
+}
+
+.case-content ul li .content-middle .ml-right .ml-right-bottom{
+    width: 3.03rem;
+    height: 1.81rem;
+    margin: 0.36rem 0 0 0.2rem;
+}
+
+.case-content ul li .content-middle img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.18rem;
+}
+.case-content ul li .content-foot{
+    padding: 0.12rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.case-content ul li .content-foot p {
+    font-size: 0.24rem;
+}
+.case-content ul li .content-foot p span {
+    color: #d2235a;
+}
+.case-content ul li .content-foot p .mianxi {
+    font-size: 0.14rem;
+    padding: 0.03rem;
+
+    line-height: 0.24rem;
+    text-align: center;
+    border: 0.01rem solid #ff3333;
+    color: #ff3333;
+    margin-left: 0.2rem;
+    border-radius: 0.08rem;
+}
+.case-content ul li .content-foot p strong{
+    font-size: 0.34rem;
+    color:#d2235a;
+    font-weight: 600;
+}
+ .case-content ul li .content-foot .foot-right{
+    width:2.15rem;
+    color: #a6a6a6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.case-content ul li .content-foot .foot-right span {
+    color: #000;
+    font-size: 0.26rem;
+
+}
+ .case-content ul li .content-foot .foot-right span i{
+    width: 0.38rem;
+    height: 0.34rem;
+    vertical-align: middle;
+}
+
+.case-content ul li .content-foot .foot-right span .icon-comment {
+
+    background: url(https://cdn.gmzx.com/images/phone/zhuanti/zt-item/real-case/icon-comment.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.case-content ul li .content-foot .foot-right span .icon-zan {
+    background: url(https://cdn.gmzx.com/images/phone/zhuanti/zt-item/real-case/icon-zan.png) no-repeat center;
+    background-size: 100% 100%;
+}
+
+/*分页*/
+.page {
+    padding:  0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page span {
+    width: 1.2rem;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    text-align: center;
+    background: #fff;
+
+}
+.page ul {
+    width: 4.42rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.page ul li{
+    width: 0.82rem;
+    height:0.82rem;
+    line-height: 0.82rem;
+    text-align: center;
+    background: #fff;
+    margin-top: 0;
+}
+.page ul li.active {
+    background: #d2235a;
+    color: #fff;
+}
+.tip {
+    padding: 0.28rem 0.3rem;
+    background: #fff;
+    font-size: 0.26rem;
+    line-height: 0.38rem;
+}
+
+/*专家团队*/
+.expert-team .expert-title {
+    height: 1.38rem;
+    background:  url(https://cdn.gmzx.com/images/phone/new-phone/expert-title.jpg)no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+}
+/*快速搜索专家输入框*/
+.expert-team .expert-title .expert-search {
+    width: 2.95rem;
+    height: 0.64rem;
+    position: absolute;
+    top: 0.44rem;
+    right:0.35rem
+}
+.expert-search .sch-inp {
+    width: 2.95rem;
+    height: 100%;
+    color: black;
+    border: 1px solid #dbdbdb;
+    border-radius: 0.3rem;
+    padding-left: 0.15rem;
+}
+.expert-team .expert-title .expert-search i {
+    width: 0.4rem;
+    height: 0.4rem;
+    background:transparent url(https://cdn.gmzx.com/images/phone/new-phone/phone-icon.png) -3.83rem -1.23rem no-repeat;
+    background-size: 5.98rem 8.62rem;
+    position: absolute;
+    top: 0.15rem;
+    right: 0.1rem;
+}
+
+.expert-team .swiper-wrapper {
+    width: 100%;
+    height: 7.97rem;
+}
+.expert-team .swiper-wrapper .swiper-slide {
+    position: relative;
+}
+.expert-team .swiper-wrapper .swiper-slide img {
+    width: 100%;
+    height: 7.97rem;
+}
+.expert-team .swiper-wrapper .swiper-slide .team-text {
+    width: 6.65rem;
+    height: 1.2rem;
+    background: rgba(220,99,139,0.8) none scroll 0 0 !important;
+    filter: alpha(opacity=50);
+    background: #dc638b;
+    position: absolute;
+    left: 0.44rem;
+    bottom: 0.94rem;
+}
+.expert-team .swiper-wrapper .swiper-slide .team-text p {
+    padding: 0.22rem 0.32rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.24rem;
+    font-family: '宋体';
+    color:#fff;
+}
+.expert-team .swiper-container2 .swiper-p1 span{
+    width: 0.16rem;
+    height: 0.16rem;
+    background: #ed2271;
+    cursor: pointer;
+}
+.expert-team .swiper-container-horizontal .swiper-pagination-bullets{
+    bottom: 25px;
+    left: 0;
+    width: 100%;
+}

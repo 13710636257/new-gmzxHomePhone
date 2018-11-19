@@ -1,0 +1,36 @@
+.slideTxtBox{ width:100%;  text-align:left;}
+.slideTxtBox .hd{ height:64px; line-height:64px; background:#333;  position:relative; }
+.slideTxtBox .hd ul{    width: 1080px;margin: 0px auto;}
+.slideTxtBox .hd ul li{width:270px;height:64px; float:left; text-align:center; cursor:pointer;    font-size: 24px;color: #fff;  }
+.slideTxtBox .hd ul li.on{ height:64px;  background:#d2235a; }.slideTxtBox .bd {width:1080px;margin:0px auto;}
+ .bd li{ height:24px; line-height:24px;}
+ .bd li .date{ float:right; color:#999;}
+.mian{width:100%;margin:0px auto;    padding-bottom: 100px;}
+/*公共样式*/
+.ziti{display:block;width:100%;border-bottom:1px solid #dedede;    margin-left: 8px;}
+.ziti em{display:block;width:230px;margin-bottom: -1px;border-bottom:2px solid #d2235a;padding: 41px 0 11px 6px;font-size:28px;text-indent:2em;}
+.yanbu ul li{width:208px;float:left;margin-top:20px;height:58px;font-size: 16px;line-height:58px;background:#dedede;margin-left:6px;  text-align:center;  border-radius: 10px;}
+.yanbu ul{margin-top:30px;}
+.btn-2{display:block;height:58px;line-height:58px;border-radius: 10px;width:208px;text-transform: uppercase;background: none;outline: none;cursor: pointer;-webkit-transition: all .5s; transition: all .5s;}
+.btn-2:hover {text-decoration: none;color: #fff;background: #d2235a;}
+.btn-2{transition: all 0.2s linear 0s; float: left;display: inline;}
+
+.yanbu-text em{background: url(https://static.gmzx.com/images/gmzx/zt-item/zhuantizhongxin/yanbu.jpg) 1px 30px no-repeat;}
+.bibu-text em{background: url(https://static.gmzx.com/images/gmzx/zt-item/zhuantizhongxin/bibu.jpg) 1px 30px no-repeat;}
+.gemian-text em{background: url(https://static.gmzx.com/images/gmzx/zt-item/zhuantizhongxin/gemian.jpg) 1px 36px no-repeat;}
+.chunbu-text em{background: url(https://static.gmzx.com/images/gmzx/zt-item/zhuantizhongxin/chunbu.jpg) 1px 41px no-repeat;}
+.textt em{background: url(https://static.gmzx.com/images/gmzx/zt-item/zhuantizhongxin/yixue.jpg) 9px 28px no-repeat;}
+.nenfu-text em{background: url(https://static.gmzx.com/images/gmzx/zt-item/zhuantizhongxin/nenfu.jpg) 9px 43px no-repeat;}
+.meibai-text em{background:url(https://static.gmzx.com/images/gmzx/zt-item/zhuantizhongxin/meibai.jpg) 0px 42px no-repeat;}
+.bushui-text em{background:url(https://static.gmzx.com/images/gmzx/zt-item/zhuantizhongxin/bushui.jpg) 9px 28px no-repeat;}
+.mianbu-text em{background:url(https://static.gmzx.com/images/gmzx/zt-item/zhuantizhongxin/gemian.jpg) 9px 28px no-repeat;}
+.chuzou{padding-bottom:50px;}
+.chuzou-text em{background:url(https://static.gmzx.com/images/gmzx/zt-item/zhuantizhongxin/chuzou.jpg) 4px 39px no-repeat;}
+.xiongbu-text em{background:url(https://static.gmzx.com/images/gmzx/zt-item/zhuantizhongxin/xiongbu.jpg) 4px 45px no-repeat;}
+.jianfei-text  em{background:url(https://static.gmzx.com/images/gmzx/zt-item/zhuantizhongxin/jianfei.jpg) 4px 38px no-repeat;}
+.simi-text  em{background:url(https://static.gmzx.com/images/gmzx/zt-item/zhuantizhongxin/simi.jpg) 4px 30px no-repeat;}
+.qita-text  em{background:url(https://static.gmzx.com/images/gmzx/zt-item/zhuantizhongxin/qita.jpg) 4px 34px no-repeat;}
+
+
+
+
